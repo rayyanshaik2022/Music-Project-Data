@@ -62,7 +62,7 @@ class LyricsScraper:
                 time.sleep(0.25)
                 if debug:
                     print(f"[!] Retrying {title} by {artist} @ {counter}")
-                song_lyrics = fetch_lyrics(title, artist)
+                song_lyrics = fetch_lyrics(title, artist, genius)
                 
                 counter += 1
             
@@ -98,7 +98,7 @@ class LyricsScraper:
 
     def run(self):
 
-        self.scrape(debug=True)
+        #self.scrape(debug=True)
         print("[+] Successfully scraped song lyrics!")
 
         # Now re-attempt missing songs
