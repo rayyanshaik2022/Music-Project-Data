@@ -69,5 +69,6 @@ class SongScraper:
         print("===============================")
 
 if __name__ == "__main__":
-    scraper = SongScraper((2010, 2011))
+    year_range = (2010, 2023)
+    scraper = SongScraper(year_range=year_range)
     scraper.run()

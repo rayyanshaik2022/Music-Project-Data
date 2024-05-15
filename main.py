@@ -13,8 +13,8 @@ if __name__ == "__main__":
 
     years = (2010, 2023)
 
-    #song_scraper = SongScraper(years)
-    #song_scraper.run()
+    song_scraper = SongScraper(years)
+    song_scraper.run()
 
     lyrics_scraper = LyricsScraper(config)
     lyrics_scraper.run()
