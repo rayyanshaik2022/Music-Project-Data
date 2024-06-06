@@ -1,3 +1,21 @@
+# Predicting the degree of virality of trending pop songs
+By Rayyan Shaik, Esther Amao, Helen Nguyen 
+
+## Our Goal: Predict how viral a trending song will be based on its lyrics
+Our Neural Network's results:
+- Accuracy: 68%
+- F1 Scores: 48%, 77%, 0% for classes 0, 1 and 2 respectively
+
+## Link to project presentation slides
+<https://docs.google.com/presentation/d/1LOISIGj1PhIdwS4g1bRxUfjqIPT69dUa0159Eut3wM0/edit#slide=id.g2dc43245a29_0_255>
+
+# About this Respository
+
+This repository contains the code required to scrape the following:
+- List of pops songs (names & artists) by year
+- Lyrics and lyrics meta-data per song
+- Weekly streaming data (global & US) per song 
+
 # How to use
 
 ## Required libraries
